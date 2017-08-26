@@ -7,7 +7,7 @@
  `git clone https://github.com/hongkongkiwi/lambda-internet-check.git`
 
  If you want an easy way to update the code to lambda, simply make sure that the aws-cli tools are installed and run my publish script.
- `npm run upload`
+ `npm run upload` but this only works from linux or mac.
 
  Otherwise you can just zip up index.js & node_modules into a zip
  `zip -r code.zip node_modules index.js` and upload using the Amazon Lambda web interface.
