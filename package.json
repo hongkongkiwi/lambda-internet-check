@@ -1,0 +1,15 @@
+{
+  "name": "check-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "is-online": "^7.0.0"
+  },
+  "lambda_function": "CheckInternet"
+}
